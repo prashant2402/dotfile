@@ -74,7 +74,6 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(git zsh-autosuggestions history-substring-search zsh-syntax-highlighting colored-man-pages)
 ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=60'
-autoload -U compinit && compinit
 
 source $HOME/.oh-my-zsh/oh-my-zsh.sh
 
